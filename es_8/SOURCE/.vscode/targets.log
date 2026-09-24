@@ -1,0 +1,386 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Jun 28 17:10:42 2026
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+JUPYTER_PATH = /opt/homebrew/opt/root/etc/notebook
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+LC_CTYPE = UTF-8
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_8/SOURCE
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-it","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 2)
+CFLAGS = -O3 -std=c++14 -I/opt/homebrew/Cellar/armadillo/15.2.4/include
+# environment
+_CONDA_EXE = /opt/anaconda3/bin/conda
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+ROOTSYS = /opt/homebrew/opt/root
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_8/SOURCE
+# environment
+GSETTINGS_SCHEMA_DIR = /opt/anaconda3/share/glib-2.0/schemas
+# environment
+PATH = /opt/anaconda3/bin:/opt/homebrew/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/root/6.34.08/bin:/opt/homebrew/Cellar/root/6.34.08/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin
+# environment
+JUPYTER_CONFIG_DIR = /opt/homebrew/opt/root/etc/notebook
+# environment
+FPATH = /opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions
+# environment
+LaunchInstanceID = 18B8ED81-ABF9-47BD-AD57-C0DD0617BF66
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 3)
+LDFLAGS = -L/opt/homebrew/Cellar/armadillo/15.2.4/lib -larmadillo
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+CMAKE_PREFIX_PATH = /opt/homebrew/opt/root
+# environment
+SHLIB_PATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# environment
+SSH_AUTH_SOCK = /var/run/com.apple.launchd.Y8jhoE4HUW/Listeners
+# environment
+CLING_STANDARD_PCH = none
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /opt/anaconda3/bin/conda
+# environment
+PWD = /Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_8/SOURCE
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+OSLogRateLimit = 64
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/Cellar/root/6.34.08/share/man:/opt/homebrew/Cellar/root/6.34.08/share/man:/opt/homebrew/share/man:/System/Cryptexes/App/usr/share/man:/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man
+# environment
+HOME = /Users/carlagariboldi
+# environment
+LD_LIBRARY_PATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/carlagariboldi/Library/Application Support/Code/CachedData/e7fb5e96c0730b9deb70b33781f98e2f35975036
+# environment
+LOGNAME = carlagariboldi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from `Makefile', line 1)
+CC = g++
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+LIBPATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = carlagariboldi
+# makefile
+.DEFAULT_GOAL := all
+# environment
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# environment
+TERM_SESSION_ID = 2ED20B7E-DD9C-498E-AA35-733BC39FE5CE
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MACH_PORT_RENDEZVOUS_PEER_VALDATION = 0
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8z/vj2dlm3d64bdd2btjgmhm97h0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/carlagariboldi/Library/Application Support/Code/1.11-main.sock
+# environment
+MallocNanoZone = 0
+# environment
+PYTHONPATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 470.2
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.89888777.89888783.8934293A-80DC-452E-B7B6-4A6838611B0C
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+_CONDA_ROOT = /opt/anaconda3
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+ 
+CONDA_PYTHON_EXE = /opt/anaconda3/bin/python
+# environment
+SECURITYSESSIONID = 186af
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /opt/anaconda3
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 1230
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=2/124=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777230, inode 92113629): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+random.o: random.cpp random.h
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 17):
+	$(CC) -c random.cpp -o random.o $(CFLAGS)
+	
+
+all: simulator.exe
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2026-04-30 16:57:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+remove:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	rm -f ../OUTPUT/*.*
+	rm -f ../OUTPUT/CONFIG/*.*
+	
+
+variation_mc.o: variation_mc.cpp variation_mc.h random.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Last modified 2026-05-25 18:01:02
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := variation_mc.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := variation_mc.cpp variation_mc.h random.h
+# automatic
+# | := 
+# automatic
+# < := variation_mc.cpp
+# automatic
+# ^ := variation_mc.cpp variation_mc.h random.h
+# automatic
+# ? := variation_mc.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  commands to execute (from `Makefile', line 14):
+	$(CC) -c variation_mc.cpp -o variation_mc.o $(CFLAGS)
+	
+
+# Not a target:
+random.h:
+#  Implicit rule search has been done.
+#  Last modified 2026-04-30 14:56:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+simulator.exe: variation_mc.o variation_qm.o random.o
+#  Implicit rule search has not been done.
+#  Last modified 2026-05-28 14:07:44
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `Makefile', line 8):
+	$(CC) variation_mc.o random.o variation_qm.o -o simulator.exe $(LDFLAGS)
+	
+
+# Not a target:
+random.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+variation_qm.o: variation_qm.c++ variation_mc.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 11):
+	$(CC) -c variation_qm.c++ -o variation_qm.o $(CFLAGS)
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 20):
+	rm -f *.o simulator.exe
+	
+
+# Not a target:
+variation_mc.h:
+#  Implicit rule search has been done.
+#  Last modified 2026-05-28 16:44:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+variation_mc.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2026-05-22 14:22:47
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+variation_qm.c++:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jun 28 17:10:42 2026
+
+ 

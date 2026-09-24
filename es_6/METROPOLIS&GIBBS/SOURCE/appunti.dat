@@ -1,0 +1,47 @@
+
+---------------------------------- TEORIA ----------------------------------
+vedo che ho l'overloading della vecchia funzione pbc(...) perchè chiaramente per la dinamica molecolare doveva essere un double, 
+mentre per gli spin deve essere un int. 
+
+
+N rho ossia la densità è un parametro non itinerante, ossia che non incide sulla simulazione
+
+Partendo dal codice del professore parto da una temperatura infinita perchè gli spin si trovano in una configurazione completamente
+casuale. 
+Misuriamo in un caso di temperatura molto alta (2.0), una volta finita la configurazione della temperatura 2.0 allora riparto per fare quella a 1.9 
+e poi da quella finale a 1.9 la uso per quella con temperatura pare a 1.8. Se commento la riga che randomizza lo spin allora parto dalla configurazione tutti up. 
+
+
+
+NON CALCOLARE ENERGIA CINETICA O POTENZIALE --> NON HANNO SENSO
+
+step è fatto in questo modo perchè se facessi facendo move(i,...) allora non vengono perchè c'è una correlazione della particella di Ising
+con la probabilità di spin-flip proposta. 
+
+
+DA IMPLEMENTARE DOMANI:
+- CALORE SPECIFICO
+- MAGNETIZZAZIONE
+- SUSCETTIVITA'
+
+
+
+
+SYMULATION TYPE = 2 --> METROPOLIS
+SYMULATION TYPE = 3 --> GIBBS
+
+Gli altri due parametri sono J e H rispettivamente. 
+Per inizializzare devo usare config.ising e in read_configuration prende in ingresso quei valori per le posizioni
+
+
+
+
+Faccio  giusto gibbs come diceva buraz
+
+
+
+COSE DA FARE:
+- cose visibilmente giuste:
+    - grafico magnetizzazione, da fare per magnetizzazione temperatura bassissima
+    - grafico energia interna --> top
+    - grafico 

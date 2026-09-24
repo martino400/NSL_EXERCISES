@@ -1,0 +1,18 @@
+----------- LEGEND FOR FILES -------------
+  0 = susceptibilty,
+  1 = internal energy,
+  2 = specific heat
+  3 = magnetization
+
+Le grandezze trovate sono in realtà le grandezze / numero di particelle, tranne la suscettività che è inteso come valore globale. 
+
+----- ATTENZIONE ----
+Io non faccio mai restart = 1, quindi dovrebbe ripartire dalla configurazione ultima in cui il sistema era 
+Infatti con restart = 0 il sistema riparte dalla configurazione che è già in memoria, ossia quella creata. 
+
+Non c'è bisogno di fare copy e paste della configurazione con cui finisce un blocco perchè io setto "RESTART = 0" quindi riparte da quella salvata in memoria e non c'è bisogno di leggere niente da file. 
+Ricordo di fare equilibrazione
+
+
+
+

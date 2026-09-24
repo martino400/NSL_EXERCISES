@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_10/SQUARE/SOURCE'
+mpicxx -c TSP.cpp -o TSP.o -O3 -std=c++14 -I/opt/homebrew/opt/armadillo/include
+mpicxx -c simulator.cpp -o simulator.o -O3 -std=c++14 -I/opt/homebrew/opt/armadillo/include
+mpicxx -c random.cpp -o random.o -O3 -std=c++14 -I/opt/homebrew/opt/armadillo/include
+mpicxx TSP.o random.o simulator.o -o simulator.exe -L/opt/homebrew/opt/armadillo/lib -larmadillo
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_10/SQUARE/SOURCE'
+ 

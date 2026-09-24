@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_2/esercizio2.1'
+g++ -c esercizio2.1.cpp -o esercizio2.1.o -Wall -O3 --std=c++11
+g++ -c random.cpp -o random.o -Wall -O3 --std=c++11
+g++ random.o esercizio2.1.o -o esercizio2.1.exe
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_2/esercizio2.1'
+ 

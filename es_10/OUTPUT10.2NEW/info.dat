@@ -1,0 +1,10 @@
+SQUARE
+Total individuals = 300
+Total generations = 5000
+P Value = 3.5
+CROSSOVER Probability = 0.8
+SWAP Probability = 0.23
+SHIFT Probability = 0.2
+PERM Probability = 0.1
+REVERSE Probability = 0.15
+Reading input completed!

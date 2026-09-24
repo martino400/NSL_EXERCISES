@@ -1,0 +1,12 @@
+SIM_TYPE            1
+TOT_INDIVID         300
+N_CITIES            34
+N_GENERATIONS       500
+P_VALUE             1.5
+CROSSOVER_PROB      0.8
+SWAP_PROB           0.15
+SHIFT_PROB          0.15
+PERM_PROB           0.10
+REVERSE_PROB        0.15
+
+ENDINPUT

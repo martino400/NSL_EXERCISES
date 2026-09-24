@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_8/SOURCE'
+g++ -c variation_mc.cpp -o variation_mc.o -O3 -std=c++14 -I/opt/homebrew/Cellar/armadillo/15.2.4/include
+g++ -c variation_qm.c++ -o variation_qm.o -O3 -std=c++14 -I/opt/homebrew/Cellar/armadillo/15.2.4/include
+g++ -c random.cpp -o random.o -O3 -std=c++14 -I/opt/homebrew/Cellar/armadillo/15.2.4/include
+g++ variation_mc.o random.o variation_qm.o -o simulator.exe -L/opt/homebrew/Cellar/armadillo/15.2.4/lib -larmadillo
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/III anno/Labo_SimulazioneNumerica/es_8/SOURCE'
+ 

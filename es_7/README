@@ -1,0 +1,7 @@
+### **Code execution**
+
+To the execute the code is is necessary to move with the terminal in the respective directory:
+- `NSL_SIMULATOR.2/SOURCE`
+and run the command `make` and `./simulator.exe`
+
+

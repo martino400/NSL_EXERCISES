@@ -1,0 +1,11 @@
+SIM_TYPE            1
+TOT_INDIVID         300
+N_GENERATIONS       1000
+P_VALUE             4.0
+CROSSOVER_PROB      0.8
+SWAP_PROB           0.23
+SHIFT_PROB          0.2
+PERM_PROB           0.10
+REVERSE_PROB        0.15
+
+ENDINPUT

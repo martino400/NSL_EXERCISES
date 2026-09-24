@@ -1,0 +1,11 @@
+SIM_TYPE = CIRCLE
+Total individuals = 300
+Total cities = 34
+Total generations = 200
+P Value = 2.5
+CROSSOVER Probability = 0.7
+SWAP Probability = 0.3
+SHIFT Probability = 0.1
+PERM Probability = 0.15
+REVERSE Probability = 0.05
+Reading input completed!

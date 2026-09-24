@@ -1,0 +1,2 @@
+Per il simulated annealing dobbiamo bisogna:
+1. tenere conto che dopo N passi bisogna far variare la temperatura

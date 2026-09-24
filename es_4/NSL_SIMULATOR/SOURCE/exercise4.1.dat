@@ -1,0 +1,58 @@
+// ------ ------ ------  code for exercise4.1  ------ ------ ------ //
+
+int main (int argc, char *argv[]){
+  int nconf = 1;
+  System SYS;
+  SYS.initialize();
+  SYS.initialize_properties();
+  SYS.block_reset(0);
+
+  for(int i=0; i < SYS.get_nbl(); i++){ //loop over blocks
+    for(int j=0; j < SYS.get_nsteps(); j++){ //loop over steps in a block
+      SYS.step();
+      SYS.measure();
+//      if(j%50 == 0){
+        // SYS.write_XYZ(nconf); //Write actual configuration in XYZ format //Commented to avoid "filesystem full"! 
+        // nconf++;
+//      }
+    }
+    SYS.averages(i+1);
+    SYS.block_reset(i+1);
+  }
+  SYS.finalize();
+
+  return 0;
+}
+
+
+// COSE IMPORTANTI DA RICORDARE
+ricordo: per trovare maxwell boltzmann ho fatto gli histogrammi usando _measurement, stando attento
+all'indice a cui io riempio il vec _measurement perchè per indice sono riservati solo gli indici 
+che vanno da [_index_pofv ; _index_pofv + _n_bin_v]
+
+una volta fatto questo ho normalizzato ciascun istogramma che mi viene tirato giù dal data blocking 
+ho salvato gli istogrammi in dei file, ciascuno per ogni blocco, salvano la media normale, la media cumulativa e l'errore associato a questa
+
+Verlet per poter andare avanti necessita dell'accelerazione della particella che è data dalla forza / massa 
+e la forza è data dal potenziale di lennard jones
+
+E in questo caso come le stiamo prendendo le particelle?
+Le posizioni iniziali delle singole particelle le stiamo prendendo da config.fcc
+
+Come facciamo a dare movimento al tempo t = 0?
+Quindi essendo che gli do restart ==0 allora fa le velocità  usando rnd.Gauss() in initialize_properties
+ma dopo non usa più initialize_properties quindi tutti gli altri calcoli delle velocità vengono fatti una volta dopo aver eseguito Verlet
+
+
+copio config xyz dentro input/CONFIG e copio conf-1 in input/CONFIG e apro il file di input e metto restart = 1 e ne faccio fare 20 blocchi ognuno da 100 passi
+
+
+DELTA è il passo della simulazione usato dall'algoritmo di Verlet per simulare la dinamica
+
+
+
+
+
+
+
+

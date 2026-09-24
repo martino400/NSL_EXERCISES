@@ -1,0 +1,31 @@
+This folder is an experiment to try and minimize the distance on a 2-sphere and no longer on a flat plane with an L^(1) norm. 
+Therefore, the goal is to simulate the minimum distance of plane flights, it is a sort of experiment to see if it works with different norms, and see how it visually works for different norms. 
+
+To make this problem more realistic I downloaded on the file et's start only with 4 cities on the globe, the following: 
+
+Rome
+Tokyo
+New Delhi
+Nairobi
+Cairo
+Sydney
+Cape Town
+London
+Paris
+Moscow
+Beijing
+Reykjavík
+New York
+Los Angeles
+Mexico City
+São Paulo
+Buenos Aires
+Lima
+Anchorage
+Auckland
+
+The coodinates are selected with phi that starts in the Greenwitch = 0 and becomes progressively greater towards east until it reaches 2PI. On the other hand theta is selected starting from the geographic north pole and becomes progressively greater going towards the equator.
+It reaches that value PI in the south pole 
+
+The first column of the file "world_cities.dat" has the latitude whilst the the second has the longitude
+

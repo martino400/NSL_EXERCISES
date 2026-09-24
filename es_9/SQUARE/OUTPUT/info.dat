@@ -1,0 +1,11 @@
+SQUARE
+Total individuals = 300
+Total cities = 34
+Total generations = 500
+P Value = 1.5
+CROSSOVER Probability = 0.8
+SWAP Probability = 0.15
+SHIFT Probability = 0.15
+PERM Probability = 0.1
+REVERSE Probability = 0.15
+Reading input completed!

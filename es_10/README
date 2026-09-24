@@ -1,0 +1,16 @@
+To run the code the first thing to do is open "SQUARE/CITIES" and run the code by writing in terminal
+
+1. make 
+
+2. ./simulator.exe
+
+The purpose of this code is to create the different cities once, in order to not risk creating different cities for different MPI processes. 
+
+Now if you want to run the parallelized code go in "SQUARE/SOURCE" and write the following commands:
+
+1. make
+2. mpiexec -np 'number of processes' ./simulatore 
+
+
+
+

@@ -1,0 +1,10 @@
+2-SPHERE
+Total individuals = 300
+Total generations = 1000
+P Value = 2.5
+CROSSOVER Probability = 0.8
+SWAP Probability = 0.23
+SHIFT Probability = 0.2
+PERM Probability = 0.1
+REVERSE Probability = 0.15
+Reading input completed!
